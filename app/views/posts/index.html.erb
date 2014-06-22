@@ -4,5 +4,6 @@
 <h4><%= post.title %></h4>
 <h4><%= post.author %></h4>
 <p><%= post.body%></p>
-<%= link_to 'Show Post', post_path(post.id) %>
+<p><%= link_to 'Show Post', post_path(post.id) %></p>
+<p><%= link_to 'New Post', new_post_path %></p>
 <% end %>
